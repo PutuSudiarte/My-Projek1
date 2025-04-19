@@ -1,2 +1,92 @@
 # My-Projek1
 Task 1
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman HTML</title>
+</head>
+<body>
+
+    <!-- Section 1: Menu -->
+    <table border="1" width="100%">
+      <section id="menu">
+        <tr>
+          <td align="center"><a href="#section2">Header</a></td>
+          <td align="center"><a href="#section3">Biodata</a></td>
+          <td align="center"><a href="#section4">Portofolio</a></td>
+        </tr>
+    </section>
+    </table>
+
+    <!-- Section 2: Judul di kiri dan gambar di kanan -->
+        <section id="judul-gambar">
+          <table border="1" width="100%" id="Section2">
+            <tr>
+                <td width="50%" align="left" valign="top">
+                    <h1>Selamat Datang diWebsite Putu Sudiarte</h1>
+                    <p>Website Pembelajaran Multimedia diSMKN 1 Banjar Agung.</p>
+                    <button>Pelajari Lebih Lanjut</button>
+                </td>
+                <td width="50%" align="center" valign="Middle">
+                    <img src="https://via.placeholder.com/200" alt="Foto Putu Sudiarte">
+                </td>
+            </tr>
+        </table>    
+    </section>    
+        
+
+    <!-- Section 3: Biodata dengan 6 box -->
+    <section id="biodata">
+      <table border="1" width="100%" id="Section3">
+        <tr>
+          <td colspan="3" align="center">
+            <h2 align="Center">About me</h2>
+            <p>A Brief Introduction about myselft</p>
+          </td>
+        </tr>
+            <tr>
+                <td align="center">Full Name</td>
+                <td align="center">Education</td>
+                <td align="center">Job</td>
+            </tr>
+            <tr>
+                <td align="center">Contact</td>
+                <td align="center">Hoby</td>
+                <td align="center">Address</td>
+            </tr>
+          </tr>    
+      </table>
+    </section>
+
+    <!-- Section 4: Portofolio -->
+    <section id="Portofolio">
+      <h2 align="center">Portofolio</h2>
+      <table width="100%" border="1" id="Section4" cellspacing="10">
+        <tr>
+          <!-- Kolom 1 -->
+          <td align="center" valign="top">
+            <img src="https://via.placeholder.com/350x200" alt="Gambar 1" width="350" height="200"><br>
+            <strong>Proyek 1</strong><br>
+            <p>Deskripsi Proyek 1</p>
+          </td>
+    
+          <!-- Kolom 2 -->
+          <td align="center" valign="top">
+            <img src="https://via.placeholder.com/350x200" alt="Gambar 2" width="350" height="200"><br>
+            <strong>Proyek 2</strong><br>
+            <p>Deskripsi Proyek 2</p>
+          </td>
+    
+          <!-- Kolom 3 -->
+          <td align="center" valign="top">
+            <img src="https://via.placeholder.com/350x200" alt="Gambar 3" width="350" height="200"><br>
+            <strong>Proyek 3</strong><br>
+            <p>Deskripsi Proyek 3</p>
+          </td>
+        </tr>
+      </table>
+    </section>      
+</body>
+</html>
